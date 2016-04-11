@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "api",
-      "script": "./dist",
+      "script": "./dist/bundle.js",
       "merge_logs": true,
       "max_restarts": 20,
       "instances": 4,

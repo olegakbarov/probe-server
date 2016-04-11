@@ -6,7 +6,7 @@
   "scripts": {
     "test-watch": "ava test --watch | faucet",
     "test": "ava test | faucet",
-    "build": "webpack -p --config webpack.config.js",
+    "build": "webpack -p --config ./webpack.config.js",
     "babel-node": "babel-node",
     "dev": "nodemon --exec npm run babel-node server.js",
     "production": "pm2 start ./dist/bundle.js"
@@ -16,7 +16,7 @@
     "url": "git+ssh://git@github.com:olegakbarov/probe-server.git"
   },
   "author": "@olegakbarov",
-  "license": "CLOSEDSOUCE!",
+  "license": "UNLICENSED",
   "dependencies": {
     "ava": "^0.13.0",
     "axios": "^0.9.1",
