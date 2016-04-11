@@ -48,6 +48,7 @@ WORKDIR ${appDir}
 # Add our package.json and install *before* adding our application files
 ADD package.json ./
 RUN npm i --production
+RUN npm run build
 
 # Install pm2 *globally* so we can run our application
 RUN npm i -g pm2
