@@ -7,6 +7,10 @@ dependencies:
     - docker info
     - docker build -t olegakbarov/probe-node .
 
+test:
+  override:
+    - ava test ./test/* --source .
+
 deployment:
   production:
     branch: master
