@@ -44,12 +44,10 @@
   },
   "ava": {
     "files": [
-      "test/*.js",
-      "!**/not-this-file.js"
+      "test/*.js"
     ],
     "source": [
-      "**/*.{js,jsx}",
-      "!dist/**/*"
+      "**/*.{js,jsx}"
     ],
     "match": [],
     "failFast": true,
