@@ -54,6 +54,7 @@ RUN npm i -g pm2
 
 # Add application files
 ADD . /var/www/app/current
+RUN npm test
 
 #Expose the port
 EXPOSE 4500

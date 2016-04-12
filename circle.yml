@@ -7,11 +7,6 @@ dependencies:
     - docker info
     - docker build -t olegakbarov/probe-node .
 
-# test:
-#   override:
-#     - docker run -d -p 4567:4567 olegakbarov/probe-node; sleep 10
-#     - curl --retry 10 --retry-delay 5 -v http://localhost:4567/schedule.json
-
 deployment:
   production:
     branch: master
