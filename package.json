@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test-watch": "ava test --watch | faucet",
-    "test": "ava test | faucet",
+    "test": "ava test ./test/* | faucet",
     "build": "webpack -p --config ./webpack.config.js",
     "babel-node": "babel-node",
     "dev": "nodemon --exec npm run babel-node server.js",
