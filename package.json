@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Real-time matchmaking server",
   "main": "server.js",
+  "engines" : {
+    "node" : ">=5.5.0"
+  },
   "scripts": {
     "test-watch": "ava test --watch | faucet",
     "test": "ava test | faucet",
@@ -33,6 +36,7 @@
     "bunyan": "^1.8.0",
     "bunyan-prettystream": "^0.1.3",
     "eventsource": "^0.2.1",
+    "faucet": "0.0.1",
     "install": "^0.6.1",
     "npm": "^3.8.6",
     "tap-dot": "^1.0.4",
