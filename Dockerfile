@@ -50,8 +50,7 @@ ADD package.json ./
 RUN npm i --production
 
 # Install pm2 *globally* so we can run our application
-RUN npm i -g pm2
-RUN npm i -g ava
+RUN npm i -g pm2 ava
 
 # Add application files
 ADD . /var/www/app/current
