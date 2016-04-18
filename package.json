@@ -1,6 +1,6 @@
 {
-  "name": "api",
-  "version": "1.0.0",
+  "name": "probe-server",
+  "version": "1.0.1",
   "description": "Real-time matchmaking server",
   "main": "server.js",
   "engines" : {
