@@ -10,8 +10,7 @@
     "test-watch": "ava test --watch | faucet",
     "test": "ava test ./test/* --source .",
     "build": "webpack -p --config ./webpack.config.js",
-    "babel-node": "babel-node",
-    "dev": "nodemon --exec npm run babel-node server.js",
+    "dev": "nodemon --exec babel-node server.js",
     "production": "pm2 start ./dist/bundle.js"
   },
   "repository": {

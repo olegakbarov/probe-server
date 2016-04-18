@@ -1,4 +1,3 @@
-import 'babel-polyfill';
 import EventSource from 'eventsource';
 import axios from 'axios';
 import log from './utils/logger';
