@@ -9,7 +9,7 @@ dependencies:
 
 test:
   override:
-    - ava test ./test/* --source .
+    - node ./node_modules/ava/cli.js
 
 deployment:
   production:
