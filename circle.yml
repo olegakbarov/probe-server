@@ -9,7 +9,7 @@ dependencies:
 
 test:
   override:
-    - node /usr/local/nvm/versions/node/v5.1.0/lib/node_modules/ava/cli.js
+    - pwd & node /usr/local/nvm/versions/node/v5.1.0/lib/node_modules/ava/cli.js
 
 deployment:
   production:
